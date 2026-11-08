@@ -1,0 +1,25 @@
+# Whitelist: alles ignorieren, nur Code- und Setting-Dateien zulassen
+*
+!*/
+
+# Code
+!*.c
+!*.h
+!*.cpp
+!*.hpp
+!*.s
+!*.S
+!*.ld
+!Makefile
+!*.mk
+
+# Settings
+!*.ioc
+!.mxproject
+!*.svd
+!**/.vscode/*.json
+!.gitignore
+!.gitattributes
+
+# Build-Ausgabe
+build/
